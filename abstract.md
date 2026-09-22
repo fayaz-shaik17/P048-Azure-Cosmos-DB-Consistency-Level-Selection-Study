@@ -1,7 +1,3 @@
 # Abstract
 
-Azure cloud environments contain critical resources such as virtual machines, storage accounts, and virtual networks that may be accidentally deleted or modified by users or administrators. This project, titled **“Azure Resource Locks and Deployment Safety Controls,”** focuses on improving the safety and governance of Azure resources by implementing Resource Locks.
-
-The project uses Azure Resource Locks, primarily the **CanNotDelete** lock, to prevent accidental deletion of critical resources. A controlled change-management workflow is also designed in which authorized administrators can temporarily remove the lock, perform approved changes, validate the resources, and reapply the protection.
-
-The proposed solution demonstrates how Azure-native governance mechanisms can provide an additional layer of protection for cloud resources and support safer resource management and deployment practices.
+Azure Cosmos DB Consistency Level Selection Study is a project that analyzes how different consistency levels in Azure Cosmos DB can be selected according to application requirements. The study focuses on three access patterns—read-heavy, write-heavy, and mixed workloads—and evaluates the trade-offs between latency, cost, and correctness. It also considers challenges such as bugs caused by weaker consistency and unexpected costs due to Request Unit (RU) provisioning. The project aims to provide practical guidelines for selecting a suitable consistency level based on workload characteristics and application needs.
