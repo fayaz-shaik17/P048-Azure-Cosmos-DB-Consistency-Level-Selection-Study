@@ -1,0 +1,3 @@
+# Abstract
+
+Azure Cosmos DB Consistency Level Selection Study is a project that analyzes how different consistency levels in Azure Cosmos DB can be selected according to application requirements. The study focuses on three access patterns—read-heavy, write-heavy, and mixed workloads—and evaluates the trade-offs between latency, cost, and correctness. It also considers challenges such as bugs caused by weaker consistency and unexpected costs due to Request Unit (RU) provisioning. The project aims to provide practical guidelines for selecting a suitable consistency level based on workload characteristics and application needs.
